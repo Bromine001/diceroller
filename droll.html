@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <title>Dice roller</title>
+    <link rel = "stylesheet" type"text/css" href= "style.css">
+    <script src= script.js></script>
+</head>
+<body>
+    <img id= back src= background2.jpg>
+    <div class= dice>
+        <img class = die id = die src = 'pics/blank.jpg'></img>
+        <img class = die id = die2 src = 'pics/blank.jpg'></img>
+        <img class = die id = die3 src = 'pics/blank.jpg'></img>
+    </div>
+    <div id = buttons>
+    <button class= attack onclick= "blueDie('die'), yellowDie('die2'), blankDie('die3')";><img class= butt src = 'pics/blueyellow.jpg'></button>
+    <button class= attack onclick= "blueDie('die'), redDie('die2'), blankDie('die3')";><img class= butt src = 'pics/bluered.jpg'></button>
+    <button class= attack onclick= "blueDie('die'), greenDie('die2'), blankDie('die3')";><img class= butt src = 'pics/emptyatt.jpg'</button>
+    <button class= attack onclick= "blueDie('die'), redDie('die2'), yellowDie('die3')";><img class= butt src = 'pics/blueredyellow.jpg'></button>
+<!--<button class= attack onclick= "blueDie('die'), redDie('die2'), greenDie('die3')";><img class= butt src = 'pics/emptyatt.jpg'></button>
+    <button class= attack onclick= "blueDie('die'), greenDie('die2'), greenDie('die3')";><img class= butt src = 'pics/emptyatt.jpg'></button>-->
+    <button class= attack onclick= "blueDie('die'), redDie('die2'), redDie('die3')";><img class= butt src = 'pics/blueredred.jpg'></button>
+    <button class= attack onclick= "blueDie('die'), redDie('die2'), greenDie('die3')";><img class= butt src = 'pics/emptyatt.jpg'></button>
+    <button class= defend onclick= "greyDie('die'), blankDie('die2'), blankDie('die3')";><img class= butt src = 'pics/grey.jpg'></button>
+    <button class= defend onclick= "greyDie('die'), brownDie('die2'), blankDie('die3')";><img class= butt src = 'pics/greybrown.jpg'></button>
+    <button class= defend onclick= "greyDie('die'), greyDie('die2'), blankDie('die3')";><img class= butt src = 'pics/greygrey.jpg'></button>
+    <button class= defend onclick= "greyDie('die'), blackDie('die2'), blankDie('die3')";><img class= butt src = 'pics/greyblack.jpg'></button>
+    <button class= defend onclick= "blackDie('die'), blankDie('die2'), blankDie('die3')";><img class= butt src = 'pics/black.jpg'></button>
+    <button class= defend onclick= "brownDie('die'), blankDie('die2'), blankDie('die3')";><img class= butt src = 'pics/brown.jpg'></button>
+    <button class= attribute onclick= "greyDie('die'), blackDie('die2'), blankDie('die3')";><img class= butt src = 'pics/attribute.jpg'></button>
+    <button class= attribute onclick= "redDie('die'), blankDie('die2'), blankDie('die3')";><img class= butt src = 'pics/red.jpg'></button>
+    <button class= attribute onclick= "redDie('die'), redDie('die2'), blankDie('die3')";><img class= butt src = 'pics/redred.jpg'></button>
+    <button id = clear class= attribute onclick= "blankDie('die'), blankDie('die2'), blankDie('die3')";><img class= butt src = 'pics/clear.jpg'></button>
+    </div>
+</body>
+</html>

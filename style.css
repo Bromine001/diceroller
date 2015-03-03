@@ -1,0 +1,140 @@
+html
+{
+    background: #002012;
+    
+}
+
+.die
+{
+    display: inline-block;
+    width: 28%;
+    height: auto;
+    padding: 2%;
+}
+
+img
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+button
+{
+    display: inline-block;
+    border: none;
+    width: 29%;
+    height: auto;
+    border: none;
+    margin: 1.5%;
+    padding: 0%;
+    
+    
+}
+.butt
+{
+    width: 100%;
+    height: auto;
+}
+#clear
+{
+    margin-left: 34%;
+   /* margin-right: auto;*/
+}
+
+.attack
+{
+   /* background: #679a3f;*/
+}
+.attack:hover
+{
+    color: #ABDCEF;
+    background: #0000FF;
+}
+
+.defend
+{
+    /*background: #679a3f;*/
+}
+.defend:hover
+{
+    color: #CCCCCC;
+    background: #666666;
+}
+.attribute
+{
+   /*background: #679a3f; */
+}
+.attribute:hover
+{
+    color: #FFCC80;
+    background: #804C00;
+}
+
+@media (max-width: 650px)
+{
+#back
+{
+    position: absolute;
+    width: 103%;
+    height: auto;
+    margin-left: -2%;
+    z-index: -1;
+}
+
+.dice
+{
+    z-index: 1;
+    margin-top: -14px;
+    display: block;
+    width: 100%;
+    
+}
+
+#buttons
+{
+    margin-top: 25px;
+    display: block;
+    min-width: 100%;
+    max-width: 650px;
+    height: auto;
+    clear: both;
+    z-index: 1;
+}
+} /*end media query*/
+
+@media (min-width: 650px)
+{
+        #back
+    {
+        position: absolute;
+        width: 670px;
+        height: auto;
+        margin-left: -2%;
+        z-index: -1;
+    }
+    
+    .dice
+    {
+        z-index: 1;
+        margin-top: -14px;
+        display: block;
+        width: 650px;
+        
+    }
+    
+    #buttons
+    {
+        margin-top: 25px;
+        display: block;
+        min-width: 650px;
+        max-width: 650px;
+        height: auto;
+        clear: both;
+        z-index: 1;
+    }
+} /*end media query*/
+
+
+/* use media queries to make this more responsive. It can divide into side-by side on big screens and top and botom
+ * on small screens. */
