@@ -3,11 +3,11 @@
 <html lang="en">
 <head>
     <title>Dice roller</title>
-    <link rel = "stylesheet" type"text/css" href= "style.css">
+    <link rel = "stylesheet" type"text/css" href= "styleWide.css">
     <script src= script.js></script>
 </head>
 <body>
-    <img id= back src= background2.jpg>
+<!--     <img id= back src= pics/background2.jpg>-->
     <div class= dice>
         <img class = die id = die src = 'pics/blank.jpg'></img>
         <img class = die id = die2 src = 'pics/blank.jpg'></img>
@@ -18,8 +18,6 @@
     <button class= attack onclick= "blueDie('die'), redDie('die2'), blankDie('die3')";><img class= butt src = 'pics/bluered.jpg'></button>
     <button class= attack onclick= "blueDie('die'), greenDie('die2'), blankDie('die3')";><img class= butt src = 'pics/emptyatt.jpg'</button>
     <button class= attack onclick= "blueDie('die'), redDie('die2'), yellowDie('die3')";><img class= butt src = 'pics/blueredyellow.jpg'></button>
-<!--<button class= attack onclick= "blueDie('die'), redDie('die2'), greenDie('die3')";><img class= butt src = 'pics/emptyatt.jpg'></button>
-    <button class= attack onclick= "blueDie('die'), greenDie('die2'), greenDie('die3')";><img class= butt src = 'pics/emptyatt.jpg'></button>-->
     <button class= attack onclick= "blueDie('die'), redDie('die2'), redDie('die3')";><img class= butt src = 'pics/blueredred.jpg'></button>
     <button class= attack onclick= "blueDie('die'), redDie('die2'), greenDie('die3')";><img class= butt src = 'pics/emptyatt.jpg'></button>
     <button class= defend onclick= "greyDie('die'), blankDie('die2'), blankDie('die3')";><img class= butt src = 'pics/grey.jpg'></button>
@@ -35,3 +33,10 @@
     </div>
 </body>
 </html>
+
+
+<!--
+            CODE FOR UNUSED ATTACK BUTTONS FEATURING GREEN DICE
+    <button class= attack onclick= "blueDie('die'), redDie('die2'), greenDie('die3')";><img class= butt src = 'pics/emptyatt.jpg'></button>
+    <button class= attack onclick= "blueDie('die'), greenDie('die2'), greenDie('die3')";><img class= butt src = 'pics/emptyatt.jpg'></button>
+-->

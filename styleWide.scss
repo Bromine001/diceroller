@@ -1,0 +1,35 @@
+html
+{
+    background: #002012;  
+}
+
+.dice
+{
+    width: 120px;
+    height: auto;
+    float: left;
+    .die
+    {
+        height: 85%;
+        width: auto;
+    }
+}
+#buttons
+{
+    width: 600px;
+    .butt
+    {
+        width: 100px;
+        padding: 0px;
+        margin: 0px;
+    }
+}    
+    
+    
+
+//    html
+//       body
+//            dice
+//                die
+//            buttons
+//                butt
