@@ -1,19 +1,39 @@
 html {
-  background: #002012; }
+  background: #0a4f05;
+  background: -moz-linear-gradient(left, #0a1905 17%, #149903 50%, #0a4f05 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(15%, #0a4f05), color-stop(50%, #149903), color-stop(100%, #0a4f05));
+  background: -webkit-linear-gradient(left, #0a1905 15%, #149903 50%, #0a4f05 100%);
+  background: -o-linear-gradient(left, #0a1905 17%, #149903 50%, #0a4f05 100%);
+  background: -ms-linear-gradient(left, #0a1905 17%, #149903 50%, #0a4f05 100%);
+  background: linear-gradient(to right, #0a1905 17%, #149903 50%, #0a4f05 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a4f05', endColorstr='#0a4f05',GradientType=1 );
+  max-width: 100%; }
 
 .dice {
-  width: 120px;
+  display: flex;
+  flex-direction: column;
   height: auto;
-  float: left; }
+  width: 130px;
+  position: absolute;
+  margin-top: 10px; }
   .dice .die {
-    height: 85%;
-    width: auto; }
+    height: auto;
+    width: 100%;
+    margin-left: 12px;
+    margin-bottom: 18px; }
 
 #buttons {
-  width: 600px; }
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+  display: absolute;
+  margin-left: 160px;
+  margin-top: 5px; }
   #buttons .butt {
-    width: 100px;
+    width: 144px;
+    height: 60px;
     padding: 0px;
-    margin: 0px; }
+    margin: 8px;
+    margin-top: 10px; }
 
 /*# sourceMappingURL=styleWide.css.map */

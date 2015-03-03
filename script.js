@@ -8,7 +8,31 @@ function blankDie(pos)
 {
     var x = document.getElementById(pos);
     x.src = 'pics/blank.jpg';
+
+
+        switch(rollDie())
+      {
+      case 1:
+          x.src = "pics/blank.jpg";
+          break;
+      case 2:
+          x.src = "pics/blank.jpg";
+          break;
+      case 3:
+          x.src = "pics/blank2.jpg";
+          break;
+      case 4:
+          x.src = "pics/blank3.jpg";
+          break;
+      case 5:
+          x.src = "pics/blank4.jpg";
+          break;
+      case 6:
+          x.src = "pics/blank5.jpg";
+          break;
+      }
 }
+
 
 function blueDie(pos)
 {
