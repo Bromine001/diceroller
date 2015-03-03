@@ -50,6 +50,7 @@ button
 {
     color: #ABDCEF;
     background: #0000FF;
+    cursor: pointer;
 }
 
 .defend
