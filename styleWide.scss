@@ -17,35 +17,36 @@ max-width: 100%;
 {
     display: flex;
     flex-direction: column;
-    height: 475px;
-    width: auto;
+    height: auto;
+    width: 19%;
     position: absolute;
-    margin-top: 10px;
+    
+    padding: 1%;
     .die
     {
-        height: 130px;
-        width: 130px;
-        margin-left: 12px;
-        margin-bottom: 25px;
+        height: auto;
+        width: 85%;
+        margin-left: 2%;
+        margin-bottom: 4%;
         
     }
 }
 #buttons
 {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 650px;
+    /*display: flex;
+    flex-wrap: wrap;*/
+    width: 84%;
     display: absolute;
-    margin-left: 160px;
-    margin-top: 5px;
+    margin-left: 19.5%;
+    margin-top: 1.5%;
         
         .butt
         {
-            width: 144px;
-            height: 60px;
+            width: 21%;
+            height: auto;
             padding: 0px;
-            margin: 5px;
-            margin-top: 10px;
+            margin: 0.75%;
+            
             border-radius: 4%;
             -webkit-box-shadow: 2px 2px 5px 0px rgba(20,20,20,20.75);
             -moz-box-shadow: 2px 2px 5px 0px rgba(20,20,20,20.75);
@@ -61,7 +62,7 @@ max-width: 100%;
         }
 }    
     
-    
+
 
 //    html
 //       body

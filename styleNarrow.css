@@ -2,12 +2,12 @@ html { background: #000;}
 body
 {
 background: rgb(10,25,5);
-background: -moz-linear-gradient(top,  rgba(10,25,5,1) 22%, rgba(20,153,3,1) 70%, rgba(10,25,5,1) 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(22%,rgba(10,25,5,1)), color-stop(70%,rgba(20,153,3,1)), color-stop(100%,rgba(10,25,5,1)));
+background: -moz-linear-gradient(top,  rgba(10,25,5,1) 22%, rgba(20,153,3,1) 70%, rgba(10,65,5,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(22%,rgba(10,65,5,1)), color-stop(70%,rgba(20,153,3,1)), color-stop(100%,rgba(10,25,5,1)));
 background: -webkit-linear-gradient(top,  rgba(10,25,5,1) 22%,rgba(20,153,3,1) 70%,rgba(10,25,5,1) 100%);
-background: -o-linear-gradient(top,  rgba(10,25,5,1) 22%,rgba(20,153,3,1) 70%,rgba(10,25,5,1) 100%);
-background: -ms-linear-gradient(top,  rgba(10,25,5,1) 22%,rgba(20,153,3,1) 70%,rgba(10,25,5,1) 100%);
-background: linear-gradient(to bottom,  rgba(10,25,5,1) 22%,rgba(20,153,3,1) 70%,rgba(10,25,5,1) 100%);
+background: -o-linear-gradient(top,  rgba(10,25,5,1) 22%,rgba(20,153,3,1) 70%,rgba(10,65,5,1) 100%);
+background: -ms-linear-gradient(top,  rgba(10,25,5,1) 22%,rgba(20,153,3,1) 70%,rgba(10,65,5,1) 100%);
+background: linear-gradient(to bottom,  rgba(10,25,5,1) 22%,rgba(20,153,3,1) 70%,rgba(10,65,5,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a1905', endColorstr='#0a4f05',GradientType=0 );
 
 }
@@ -15,9 +15,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a1905', end
 .die
 {
     display: inline-block;
-    width: 28%;
+    width: 28.6%;
     height: auto;
-    padding: 2%;
+    margin: .4%;
+    padding: 1%;
+    
 }
 
 img
@@ -35,6 +37,7 @@ img
     height: auto;
     border: none;
     margin: .7%;
+    margin-bottom: 2.5%;
     padding: 0%;
     border-radius: 4%;
             -webkit-box-shadow: 2px 2px 5px 0px rgba(20,20,20,20.75);
@@ -50,47 +53,41 @@ img
                 box-shadow: 5px 5px 7px 3px rgba(10,10,10,10.95);
             }
 
-#clear
-{
-    margin-left: 34%;
-   /* margin-right: auto;*/
-}
+
 
 
 
 @media (max-width: 650px)
 {
-body
-{
-    position: absolute;
-    width: 103%;
-    height: auto;
-    margin-left: -2%;
-    z-index: -1;
-}
+    body
+    {
+        position: absolute;
+        width: 103%;
+        height: auto;
+        margin-left: -2%;
+        z-index: -1;
+    }
 
-.dice
-{
-    z-index: 1;
-    margin-top: -14px;
-    display: block;
-    width: 100%;
-    
-    
-}
+    .dice
+    {
+        margin: 2%;
+        display: block;
+        width: 100%;
+      
+    }
 
-#buttons
-{
-    margin-top: 25px;
-    margin-left: 3%;
-    display: block;
-    min-width: 100%;
-    max-width: 650px;
-    height: auto;
-    clear: both;
-    z-index: 1;
-    
-} /*end media query*/
+    #buttons
+    {
+        margin-top: 25px;
+        margin-left: 3%;
+        display: block;
+        min-width: 100%;
+        max-width: 650px;
+        height: auto;
+        clear: both;
+        z-index: 1;   
+    } /*end media query*/
+}
 
 @media (min-width: 650px)
 {
@@ -99,13 +96,12 @@ body
         position: absolute;
         width: 670px;
         height: auto;
-        z-index: -1;
     }
     
     .dice
     {
-        z-index: 1;
-        margin-top: -14px;
+ 
+       margin: 13px;
         display: block;
         width: 650px;
         
@@ -114,14 +110,12 @@ body
     #buttons
     {
         margin-top: 25px;
-        margin-left: 16px;
+        margin-left: 10px;
         display: block;
-        min-width: 650px;
-        max-width: 650px;
-        text-justify: center;
+        width: 650px;
+        
         height: auto;
         clear: both;
-        z-index: 1;
         
     }
 } /*end media query*/
