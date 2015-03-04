@@ -1,0 +1,131 @@
+html { background: #000;}
+body
+{
+background: rgb(10,25,5);
+background: -moz-linear-gradient(top,  rgba(10,25,5,1) 22%, rgba(20,153,3,1) 70%, rgba(10,25,5,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(22%,rgba(10,25,5,1)), color-stop(70%,rgba(20,153,3,1)), color-stop(100%,rgba(10,25,5,1)));
+background: -webkit-linear-gradient(top,  rgba(10,25,5,1) 22%,rgba(20,153,3,1) 70%,rgba(10,25,5,1) 100%);
+background: -o-linear-gradient(top,  rgba(10,25,5,1) 22%,rgba(20,153,3,1) 70%,rgba(10,25,5,1) 100%);
+background: -ms-linear-gradient(top,  rgba(10,25,5,1) 22%,rgba(20,153,3,1) 70%,rgba(10,25,5,1) 100%);
+background: linear-gradient(to bottom,  rgba(10,25,5,1) 22%,rgba(20,153,3,1) 70%,rgba(10,25,5,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a1905', endColorstr='#0a4f05',GradientType=0 );
+
+}
+
+.die
+{
+    display: inline-block;
+    width: 28%;
+    height: auto;
+    padding: 2%;
+}
+
+img
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.butt
+{
+    display: inline-block;
+    border: none;
+    width: 21%;
+    height: auto;
+    border: none;
+    margin: .7%;
+    padding: 0%;
+    border-radius: 4%;
+            -webkit-box-shadow: 2px 2px 5px 0px rgba(20,20,20,20.75);
+            -moz-box-shadow: 2px 2px 5px 0px rgba(20,20,20,20.75);
+            box-shadow: 2px 2px 5px 0px rgba(20,20,20,20.75);
+}
+
+.butt:hover
+            {
+                cursor: pointer;
+                -webkit-box-shadow: 5px 5px 7px 3px rgba(10,10,10,10.95);
+                -moz-box-shadow: 5px 5px 7px 3px rgba(10,10,10,10.95);
+                box-shadow: 5px 5px 7px 3px rgba(10,10,10,10.95);
+            }
+
+#clear
+{
+    margin-left: 34%;
+   /* margin-right: auto;*/
+}
+
+
+
+@media (max-width: 650px)
+{
+body
+{
+    position: absolute;
+    width: 103%;
+    height: auto;
+    margin-left: -2%;
+    z-index: -1;
+}
+
+.dice
+{
+    z-index: 1;
+    margin-top: -14px;
+    display: block;
+    width: 100%;
+    
+    
+}
+
+#buttons
+{
+    margin-top: 25px;
+    margin-left: 3%;
+    display: block;
+    min-width: 100%;
+    max-width: 650px;
+    height: auto;
+    clear: both;
+    z-index: 1;
+    
+} /*end media query*/
+
+@media (min-width: 650px)
+{
+    body
+    {
+        position: absolute;
+        width: 670px;
+        height: auto;
+        z-index: -1;
+    }
+    
+    .dice
+    {
+        z-index: 1;
+        margin-top: -14px;
+        display: block;
+        width: 650px;
+        
+    }
+    
+    #buttons
+    {
+        margin-top: 25px;
+        margin-left: 16px;
+        display: block;
+        min-width: 650px;
+        max-width: 650px;
+        text-justify: center;
+        height: auto;
+        clear: both;
+        z-index: 1;
+        
+    }
+} /*end media query*/
+
+
+/* use media queries to make this more responsive. It can divide into side-by side on big screens and top and botom
+ * on small screens. */
