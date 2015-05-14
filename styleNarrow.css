@@ -57,7 +57,7 @@ img
 
 
 
-@media (max-width: 650px)
+@media (max-width: 850px)
 {
     body
     {
@@ -89,30 +89,30 @@ img
     } /*end media query*/
 }
 
-@media (min-width: 650px)
+@media (min-width: 850px)
 {
     body
     {
         position: absolute;
-        width: 670px;
+        width: 870px;
         height: auto;
     }
     
     .dice
     {
  
-       margin: 13px;
+       margin: 17px;
         display: block;
-        width: 650px;
+        width: 850px;
         
     }
     
     #buttons
     {
-        margin-top: 25px;
-        margin-left: 10px;
+        margin-top: 33px;
+        margin-left: 19px;
         display: block;
-        width: 650px;
+        width: 850px;
         
         height: auto;
         clear: both;

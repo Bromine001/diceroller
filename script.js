@@ -62,7 +62,7 @@ function blueDie(pos)
           x.src = "pics/blue6.jpg";
           break;
       }
-    }, 150);
+    }, 75);
 }
 
 function yellowDie(pos)
@@ -92,7 +92,7 @@ function yellowDie(pos)
         x.src = "pics/yel6.jpg";
         break;
     }
-    }, 250);
+    }, 125);
 }
 
 function redDie(pos)
@@ -122,7 +122,7 @@ function redDie(pos)
         x.src = "pics/red6.jpg";
         break;
     }
-        }, 250);
+        }, 125);
 
 }
 
@@ -153,7 +153,7 @@ function brownDie(pos)
         x.src = "pics/brown6.jpg";
         break;
     }
-        }, 250);
+        }, 125);
 
 }
 
@@ -184,7 +184,7 @@ function greyDie(pos)
         x.src = "pics/grey6.jpg";
         break;
     }
-        }, 250);
+        }, 75);
 
 }
 
@@ -215,7 +215,7 @@ function blackDie(pos)
         x.src = "pics/black6.jpg";
         break;
     }
-        }, 250);
+        }, 150);
 
 }
 

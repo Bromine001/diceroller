@@ -1,0 +1,58 @@
+html {
+     background: #444;
+    background-image: url("Orion.jpg");
+    background-repeat: no-repeat;
+   
+       }
+       
+       
+.face1 {
+    margin: 16px;
+background-image: url("maindie.png");
+height: 120px;
+width: 120px;
+
+
+}
+.face {
+    margin: 16px;
+   background-image: url("edie.png");
+height: 120px;
+width: 120px; 
+    
+/*width: 0;
+height: 0;
+border-bottom: 80px solid #245;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;*/
+
+
+}
+
+.col
+{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    
+    
+}
+ 
+
+.number {
+  
+line-height: 4em;
+font-weight: bold;
+font-size: 30px;
+font-family: sans-serif;
+color: black;
+text-align: center;
+}
+
+a
+{
+    font-family: sans-serif;
+    color: #ccc;
+    font-size: .65em;
+    
+}
